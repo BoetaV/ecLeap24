@@ -231,7 +231,7 @@ h4 {
         <div class="main-user-info">
           <div class="user-input-box">
             <!-- <label for="district">District</label> -->
-            <select id="district" name="District" class="user-input-select" onchange="populateMunicipality()" required disabled>
+            <select id="district" name="District" class="user-input-select" onchange="populateMunicipality()" required>
               <option value="#" selected disabled>--Select District--</option>
               <option value="Alfred Nzo DM">Alfred Nzo DM</option>
               <option value="Amathole DM">Amathole DM</option>
@@ -245,20 +245,20 @@ h4 {
           </div>
           <div class="user-input-box">
             <!-- <label for="district">District</label> -->
-          <select id="municipality" name="LocalMunicipality" class="user-input-select" onchange="populateFacility()" required disabled>
+          <select id="municipality" name="LocalMunicipality" class="user-input-select" onchange="populateFacility()" required>
               <option value="#" selected disabled>--Select Local Municipality--</option>
             </select>
           </div>
           <div class="user-input-box">
             <!-- <label for="district">District</label> -->
-            <select id="facility" name="Facility" class="user-input-select" required disabled>
+            <select id="facility" name="Facility" class="user-input-select" required>
               <option value="#" selected disabled>--Select Facility--</option>
             </select>
           </div>
 
           <div class="user-input-box">
             <!-- <label for="FacilityType">FacilityType</label> -->
-            <select id="factype" name="FacilityType" class="user-input-select" required disabled>
+            <select id="factype" name="FacilityType" class="user-input-select" required>
               <option value="#" selected disabled>--Select Facility Type--</option>
                 <option value="Accute Hospital">Acute </option>
                 <option value="Clinic">Clinic</option>
@@ -275,16 +275,15 @@ h4 {
 
           <div class="user-input-box">
             <!-- <label for="ReportDate">Report Date</label> -->
-            <select id="repdate" name="ReportDate" class="user-input-select" required disabled>
+            <select id="repdate" name="ReportDate" class="user-input-select" required>
               <option value="#" selected disabled>--Select Report Date--</option>
-              <option value="25 December 2023" disabled>25 December 2023</option>
-              <option value="01 January 2024">01 January 2024</option>
-            </select>
+              <option value="29 February 2024" disabled>29 February 2024</option>
+             </select>
           </div>
 
           <div class="user-input-box">
             <!-- <label for="TimeSlot">Time Slot</label> -->
-            <select id="timeslot" name="TimeSlot" class="user-input-select" required disabled>
+            <select id="timeslot" name="TimeSlot" class="user-input-select" required>
               <option value="#" selected disabled>--Select Time Slot--</option>
                 <option value="1. 00:01 - 06:00">00:01 - 06:00</option>
                 <option value="2. 06:01 - 12:00">06:01 - 12:00</option>
@@ -293,7 +292,7 @@ h4 {
             </select>
           </div>
 
-          <div class="user-input-box" style="margin-bottom: 10px;" disabled>
+          <div class="user-input-box" style="margin-bottom: 10px;">
             <div style="display: flex; align-items: center;">
                 <input type="checkbox"
                        id="nilbirths"
